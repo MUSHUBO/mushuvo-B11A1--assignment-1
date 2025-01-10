@@ -1,0 +1,155 @@
+body{
+    font-family: "Fira Sans", serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* naveber */
+
+.navber{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.Signin-btn{
+    font-size: 18px;
+    color: #006A50;
+    background-color: white;
+    border: 1px solid #006A50;
+    padding: 10px 30px;
+    border-radius: 8px;
+    margin-top: 31px;
+    
+}
+.nevber-title{
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 24px;
+}
+
+
+
+/* first page */
+
+.first-page{
+    background-color: #C6E4D6;
+    padding: 30px;
+    margin: 20px 160px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.first-page-title{
+    color: rgba(14, 14, 14, 0.50);
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.first-page-sub-title{
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    border: 0;
+}
+.explore-btn{
+    font-size: 18px;
+    color: white;
+    background-color: #006A50;
+    padding: 17px 34px;
+    border-radius: 8px;
+}
+
+
+
+/* third page style */
+
+.third-page{
+    margin: 80px 160px;
+}
+.third-page-title{
+    font-size: 40px;
+    font-weight: bold;
+}
+.third-page-contant{
+    color: rgba(14, 14, 14, 0.70);
+    font-size: 16px;
+}
+
+/* third-page style */
+.third-page-title{
+    font-size: 40px;
+    font-weight: bold;
+}
+.third-page-contant{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.70);
+    margin-top: 24px;
+}
+
+/* third-page-box-title style */
+.trd-box-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 24px;
+}
+.trd-box-contant{
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+/* third-box-style */
+
+.third-page-box{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.vision-box{
+    text-align: justify;
+    width: 410.67px;
+    height: 325px;
+    padding: 20px;
+    border-radius: 16px;
+}
+.first-vision{
+    background-color: rgba(84, 144, 245, 0.20);;
+}
+.second-vision{
+    background-color: rgba(198, 228, 214, 1.00);
+}
+.third-vision{
+    background-color: rgba(247, 235, 207, 1.00);
+}
+
+/* third-page-btn style */
+
+.third-page-btn{
+    font-size: 16px;
+    color: white;
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: 0;
+    margin-top: 24px;
+}
+.third-page-first-btn{
+    background-color: #5490F5;
+}
+.third-page-second-btn{
+    background-color: #09A15C;
+}
+.third-page-last-btn{
+    background-color: #FFC239;
+}
+
+
+
+/* six page */
+
+
