@@ -202,4 +202,57 @@ body{
 }
 
 
+/* seven-page-style */
+
+.seven-page{
+    margin: 20px 180px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.money-section{
+   display: flex;
+   padding: 10px;
+   gap: 24px;
+   margin: 32px 200px;
+   justify-content: space-around;
+}
+.taka{
+    background-color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 16px;
+}
+.taka-colorful{
+    background-color: #C6E4D6;
+}
+.sevenp-title{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 14px;
+    text-align: center;
+}
+.sevenp-content{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.70);
+    margin: 32px;
+    text-align: center;
+}
+.sevenp-btn{
+    width: 151px;
+    border-radius: 8px;
+    padding: 20px;
+    color: white;
+    background-color: #006A50;
+    margin-left: 220px;
+    margin-top: 15px;
+}
+
+
+
+/* last page style */
+
 
