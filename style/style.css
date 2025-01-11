@@ -129,6 +129,35 @@ body{
     background-color: rgba(247, 235, 207, 1.00);
 }
 
+
+
+ /* fourth page style */
+
+.fourth-page{
+    margin: 20px 160px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 50px 20px;
+    background-color: white;
+    padding: 48px;
+    border-radius: 16px;
+}
+.fourth-page-content{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.80);
+    margin-bottom: 12px;
+}
+.fourthp-title{
+    font-size: 20px;
+    margin: 4px;
+}
+.dr.y{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.60);
+}
+
+
+
 /* third-page-btn style */
 
 .third-page-btn{
