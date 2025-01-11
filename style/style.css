@@ -39,11 +39,13 @@ body{
 
 .first-page{
     background-color: #C6E4D6;
-    padding: 30px;
-    margin: 20px 160px;
+    padding: 80px 100px 80px 100px;
+    margin: 20px 160px 80px 160px;
     border-radius: 24px;
+    gap: 64px;
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
 }
 .first-page-title{
@@ -55,7 +57,6 @@ body{
     font-size: 56px;
     font-weight: bold;
     margin-bottom: 24px;
-    border: 0;
 }
 .explore-btn{
     font-size: 18px;
@@ -158,6 +159,42 @@ body{
 
 
 
+/* second page style */
+
+.second-page{
+    margin: 20px 160px;
+}
+.secp-title{
+    font-size: 40px;
+    font-weight: bold;
+}
+.secp-boxt{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.secp-boxst{
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+.secp-box-item{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.secp-box{
+    width: 302px;
+    height: 244px;
+    background-color: white;
+    padding: 24px;
+    border-radius: 16px;
+}
+
+
+
 /* third-page-btn style */
 
 .third-page-btn{
@@ -231,20 +268,19 @@ body{
 }
 
 
+
 /* seven-page-style */
 
 .seven-page{
-    margin: 20px 180px;
+    margin: 20px 160px;
     display: flex;
     align-items: center;
     flex-direction: column;
-
 }
 .money-section{
    display: flex;
    padding: 10px;
    gap: 24px;
-   margin: 32px 200px;
    justify-content: space-around;
 }
 .taka{
@@ -276,8 +312,14 @@ body{
     padding: 20px;
     color: white;
     background-color: #006A50;
-    margin-left: 220px;
-    margin-top: 15px;
+    margin-left: 520px;
+}
+.sevenp-form{
+    height: 64px;
+    width: 700px;
+    margin: 32px 250px;
+    padding: px;
+    text-align: center;
 }
 
 
@@ -314,11 +356,16 @@ body{
     height: 55px;
     width: 600px;
     border-radius: 8px 0 0 8px;
+    padding-left: 30px;
+    
 }
+
 .email-sub{
+    font-size: 18px;
     height: 56px;
     width: 150px;
     border-radius:0 8px 8px 0;
+    color: white;
     background-color: #006A50;
 }
 
